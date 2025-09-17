@@ -1,46 +1,73 @@
-# Astro Starter Kit: Basics
+# Gambarno — Creative AI Imagery for Ambitious Teams
 
-```sh
-npm create astro@latest -- --template basics
+> Your studio-grade control center for generating, curating, and shipping on-brand visuals with uncompromising polish.
+
+---
+
+## At a Glance
+- **Creative certainty** with reusable prompt recipes, brand-safe filters, and approval flows your clients trust.
+- **Lightning execution** through realtime previews, bulk generations, and direct-to-campaign exports.
+- **Enterprise calm** thanks to role-aware access, predictable billing, and observability from credits to CDN hits.
+
+---
+
+## Why Studios Choose Gambarno
+- **Studio Canvas**: Snap-to-grid layout, prompt history, and intelligent refinements keep ideation flowing without tab overload.
+- **Brand Vault**: Lock palettes, typography, and references so every render respects the identity playbook.
+- **Batch Lab**: Spin up batches, monitor GPU queues, and auto-route finals to shared folders or downstream automations.
+- **Insights Dashboard**: Surface the styles that resonate, track spend by client, and forecast upcoming credit needs.
+
+---
+
+## Experience Principles
+- **Delightfully focused**: We fade the noise—ambient prompts, keyboard-first navigation, and contextual nudges keep momentum high.
+- **Inclusive by default**: WCAG-ready contrast, screen-reader labels, motion-safe modes, and global-ready copy.
+- **Offline capable**: Installable PWA shell caches recent projects, prompt templates, and queued jobs for on-the-go reviews.
+
+---
+
+## Platform Architecture
+
+```
+┌──────────────────────────────────────────────────────────┐
+│                    Gambarno Cloud Stack                  │
+├──────────────────────────────────────────────────────────┤
+│  Astro Frontend  | React islands | Tailwind design system│
+│  Service Worker  | Manifest & offline cache              │
+│  Edge Gateway    | Auth middleware | rate limiting       │
+│  Application API | Node.js + tRPC | event bus            │
+│  Model Orchestration | Diffusion runners | queue workers │
+│  Media Pipeline  | Object storage | CDN optimization     │
+│  Billing Layer   | Stripe + usage metering + webhooks    │
+└──────────────────────────────────────────────────────────┘
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## Operational Superpowers
+- **Model orchestration**: Resilient workers dispatch prompts to GPU clusters or partner APIs with retry and observability baked in.
+- **Media pipeline**: Generated assets stream into S3-compatible storage, get auto-tagged, transcoded, and distributed globally.
+- **Billing & entitlements**: Stripe-powered subscriptions, usage credit packs, and role-based access control keep finance aligned with flow.
+- **Audit & compliance**: Signed URLs, immutable request logs, and exportable reports satisfy enterprise procurement checklists.
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+## Roadmap Signals
+- Launchpad for community-curated style marketplaces.
+- Fine-tune console for custom diffusion checkpoints and brand-exclusive models.
+- AI prompt coach that suggests sharper creative directions in real time.
+- Automated publishing bridges to CMS, DAM, and social schedulers once work is approved.
+
+---
+
+## Quickstart
+
+```bash
+npm install
+npm run dev    # Start the studio on http://localhost:4321
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+---
 
-## 🧞 Commands
+**Need Support?** Drop into `#gambarno`, or email `support@gambarno.app`. Our creative crew ships alongside you.
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
